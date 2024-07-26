@@ -34,7 +34,7 @@ import UpdatedComponent from './components/withCounter';
 function App() {
   return (
     <div className="App">
-      <ClickCounter />
+      <ClickCounter name='Kavan'/>
       <HoverCounter />
       {/* <ErrorBoundary>
         <Hero heroName="Batman" />
