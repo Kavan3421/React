@@ -7,6 +7,8 @@ import CounterThree from './components/CounterThree';
 import ComponentA from './components/ComponentA';
 import ComponentB from './components/ComponentB';
 import ComponentC from './components/ComponentC';
+import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 
 export const CountContext = React.createContext()
 
@@ -32,10 +34,12 @@ function App() {
         {/* <CounterOne /> */}
         {/* <CounterTwo /> */}
         {/* <CounterThree /> */}
-        Count - {count}
+        {/* Count - {count}
         <ComponentA />
         <ComponentB />
-        <ComponentC />
+        <ComponentC /> */}
+        {/* <DataFetchingOne /> */}
+        <DataFetchingTwo />
       </div>
     </CountContext.Provider>
   );
